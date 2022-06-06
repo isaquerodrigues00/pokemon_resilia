@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fundo{
+    background-image: url(/Imagens/jornada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.pergunta{
+        width: 600px;
+         max-height: 450px;
+        background-color: blue;
+        border-radius: 10px;
+        font-family: 'Ubuntu', sans-serif;
+        color: yellow;
+        text-align: center;
+}
+.cartoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.card{
+    width: 300px;
+    max-height: 450px;
+    background-color: blue;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 20px;
+    margin: 20px;
+
+    text-align: center;
+ 
+}
+.fotoCard{
+    max-width: 100%;
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(80, 20, 220);
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+  }
+
+  @media(max-width: 800px) {
+    .characters-wrapper {
+        flex-direction: column;
+    }
+  }

@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fundo{
+    background-image: url(/Imagens/wtf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment:fixed ;
+    width: 700px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+.mensagemFinal{
+    width: 400px;
+    max-height: 450px;
+    background-color: yellow;
+    border-radius: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    color: blue;
+    text-align: center;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    margin: 20px;
+
+    text-align: center;
+;
+}
+button{
+    background: grey;
+    color: white;
+    border-radius: 10px;
+    border-style: outset;
+    height: 60px;
+    width: 300px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    text-shadow:none;
+}
+button:hover{
+    color: white;
+    background-color: rgb(80, 20, 220);
+}
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    border-top: 1px solid #333;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+  }
+  @media(max-width: 800px) {
+    .characters-wrapper {
+        flex-direction: column;
+    }
+  }
